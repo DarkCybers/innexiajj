@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from innexiaBot import pbot as Layla
+from innexiaBot import pbot as innexia
 
 ARQ = "https://thearq.tech/"
 
