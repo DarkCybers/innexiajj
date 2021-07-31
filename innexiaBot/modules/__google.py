@@ -267,7 +267,7 @@ async def apk(e):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n===> @AwesomeSupport <==="
+        app_details += "\n\n===> @SiderzBot <==="
         await e.reply(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await e.reply("No result found in search. Please enter **Valid app name**")
@@ -275,7 +275,7 @@ async def apk(e):
         await e.reply("Exception Occured:- " + str(err))
 
 
-__mod_name__ = "◎Search"
+__mod_name__ = "Search"
 
 __help__ = """
  ❍ /google <text>*:* Perform a google search
@@ -286,6 +286,6 @@ __help__ = """
  ❍ /github <username>*:* Get information about a GitHub user.
  ❍ /country <country name>*:* Gathering info about given country
  ❍ /imdb <Movie name>*:* Get full info about a movie with imdb.com
- ❍ Yone <query>*:* Yone answers the query
-  💡Ex: `Yone where is India?`
+ ❍ Innexia <query>*:* Innexia answers the query
+  💡Ex: `Innexia where is India?`
 """
