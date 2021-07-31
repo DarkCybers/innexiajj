@@ -631,7 +631,7 @@ def devlist(update: Update, context: CallbackContext):
 #  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across innexiaBot.
 #  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
-# *Layla Core*
+# *Innexia Core*
 # *Owner only*
 #  ❍ /send*:* <module name>*:* Send module
 #  ❍ /install*:* <reply to a .py>*:* Install module 
