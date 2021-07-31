@@ -14,7 +14,7 @@ from pyrogram import filters
 from innexiaBot import BOT_ID
 from innexiaBot.helper_extra.aichat import add_chat, get_session, remove_chat
 from innexiaBot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from innexiaBot import pbot as layla
+from innexiaBot import pbot as innexia
 
 translator = google_translator()
 import requests
@@ -39,7 +39,7 @@ async def fetch(url):
         return
 
 
-layla_chats = []
+innexia_chats = []
 en_chats = []
 
 @layla.on_message(
