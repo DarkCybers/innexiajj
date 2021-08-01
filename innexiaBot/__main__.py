@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "[👋](https://telegra.ph/file/647cd4b88dad5350ad71d.gif)I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "[Hey](https://telegra.ph/file/647cd4b88dad5350ad71d.gif)I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
