@@ -368,12 +368,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="layla_back")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "layla_back":
+    elif query.data == "innexia_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
