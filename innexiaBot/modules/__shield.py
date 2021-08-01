@@ -210,7 +210,7 @@ async def nsfw_watch(client, message):
             Escobar = midhun.id
         await client.send_message(
             message.chat.id,
-            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, Layla deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By LaylaAI` \n**#GROUP_GUARDIAN** ",
+            f"**NSFW DETECTED**\n\n{hehe}'s message contain NSFW content.. So, Innexia deleted the message\n\n **Nsfw Sender - User / Bot :** `{Escobar}` \n**Chat Title:** `{ctitle}` \n\n`⚔️Automatic Detections Powered By InnexiaAI` \n**#GROUP_GUARDIAN** ",
         )
         message.continue_propagation()
 """
