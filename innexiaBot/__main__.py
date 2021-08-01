@@ -349,9 +349,9 @@ def help_button(update, context):
 
 
 @run_async
-def layla_about_callback(update, context):
+def innexia_about_callback(update, context):
     query = update.callback_query
-    if query.data == "layla_":
+    if query.data == "innexia_":
         query.message.edit_text(
             text=""" **INNEXIA** it's online since 29 March 2021 and it's constantly updated!
             \n**Bot Admins**
