@@ -42,7 +42,7 @@ async def fetch(url):
 innexia_chats = []
 en_chats = []
 
-@layla.on_message(
+@innexia.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
