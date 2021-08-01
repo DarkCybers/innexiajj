@@ -130,7 +130,7 @@ async def hmm(client, message):
 
         pro = result["message"]
         try:
-            await layla.send_chat_action(message.chat.id, "typing")
+            await innexia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -179,7 +179,7 @@ async def hmm(client, message):
         # Kang with the credits bitches @InukaASiTH
         test = test.replace("innexia", "Aco")
         test = test.replace("innexia", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@HEROGAMERS1"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@useIes"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -196,7 +196,7 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await layla.send_chat_action(message.chat.id, "typing")
+            await innexia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -253,7 +253,7 @@ async def inuka(client, message):
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("innexia", "Aco")
     test = test.replace("innexia", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@HEROGAMERS1"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@useIes"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -268,7 +268,7 @@ async def inuka(client, message):
     if not "en" in lan and not lan == "":
         pro = translator.translate(pro, lang_tgt=lan[0])
     try:
-        await layla.send_chat_action(message.chat.id, "typing")
+        await innexia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
@@ -331,7 +331,7 @@ async def inuka(client, message):
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("innexia", "Aco")
     test = test.replace("innexia", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@A_viyu"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@innexiaBot&ownername=@useIes"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -348,7 +348,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await layla.send_chat_action(message.chat.id, "typing")
+        await innexia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
