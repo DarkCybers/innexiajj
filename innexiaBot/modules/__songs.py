@@ -68,7 +68,7 @@ async def download_song(url):
     return song_name
 
 
-@Layla.on_message(filters.command("deezer"))
+@innexia.on_message(filters.command("deezer"))
 async def deezer(_, message):
     if len(message.command) < 2:
         await message.reply_text("Download Now Deezer")
