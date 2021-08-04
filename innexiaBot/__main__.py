@@ -368,7 +368,16 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back"),
+                    InlineKeyboardButton(text="Help", callback_data="help_back"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Support", url="t.me/SiderzChat"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/SiderzBot"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Details", url="t.me/SiderzInfo"),
+                 
                  ]
                 ]
             ),
