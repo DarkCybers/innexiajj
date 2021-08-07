@@ -12,12 +12,12 @@ PHOTO = "https://telegra.ph/file/00dca1590296efc1956e0.jpg"
 async def awake(event):
   innexiaXname = event.sender.first_name
   innexiaX = f"**👋 Hᴇʟʟᴏ {innexiaXname}, I Aᴍ Iɴɴᴇxɪᴀ**\n\n"
-  innexiaX += "🔸 I Aᴍ Wᴏʀᴋɪɴɢ Pʀᴏᴘᴇʀʟʏ\n"
-  innexiaX += "🔹 Iɴɴᴇxɪᴀ Oꜱ : 2.0 Lᴀᴛᴇꜱᴛ\n"
-  innexiaX += f"🔸 Mʏ Mᴀꜱᴛᴇʀ {OWNER_USERNAME}\n"
-  innexiaX += "🔹 I'ᴍ Uᴘᴅᴀᴛᴇᴅ\n"
-  innexiaX += "🔸 Tᴇʟᴇᴛʜᴏɴ : 1.19.5 Lᴀᴛᴇꜱᴛ\n\n"
-  innexiaX += "Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Aᴅᴅ Mᴇ Hᴇʀᴇ"
+  innexiaX += "🔸 `I Aᴍ Wᴏʀᴋɪɴɢ Pʀᴏᴘᴇʀʟʏ`\n"
+  innexiaX += "🔹 `Iɴɴᴇxɪᴀ Oꜱ : 2.0 Lᴀᴛᴇꜱᴛ`\n"
+  innexiaX += f"🔸 `Mʏ Mᴀꜱᴛᴇʀ` {OWNER_USERNAME}\n"
+  innexiaX += "🔹 `I'ᴍ Uᴘᴅᴀᴛᴇᴅ`\n"
+  innexiaX += "🔸 `Tᴇʟᴇᴛʜᴏɴ : 1.19.5 Lᴀᴛᴇꜱᴛ`\n"
+  innexiaX += "**🥰 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Aᴅᴅ Mᴇ Hᴇʀᴇ!**"
   BUTTON = [[Button.url("Sᴜᴘᴘᴏʀᴛ", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Oᴡɴᴇʀ", f"https://t.me/{OWNER_USERNAME}")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=innexiaX,  buttons=BUTTON)
 
@@ -35,11 +35,11 @@ async def callback_query_handler(event):
   global PHOTO
   innexiaXname = event.sender.first_name
   innexiaX = f"**👋 Hᴇʟʟᴏ {innexiaXname}, I Aᴍ Iɴɴᴇxɪᴀ**\n\n"
-  innexiaX += "🔸 I Aᴍ Wᴏʀᴋɪɴɢ Pʀᴏᴘᴇʀʟʏ\n"
-  innexiaX += "🔹 Iɴɴᴇxɪᴀ Oꜱ : 2.0 Lᴀᴛᴇꜱᴛ\n"
-  innexiaX += f"🔸 Mʏ Mᴀꜱᴛᴇʀ {OWNER_USERNAME}\n"
-  innexiaX += "🔹 I'ᴍ Uᴘᴅᴀᴛᴇᴅ\n"
-  innexiaX += "🔸 Tᴇʟᴇᴛʜᴏɴ : 1.19.5 Lᴀᴛᴇꜱᴛ\n\n"
-  innexiaX += "Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Aᴅᴅ Mᴇ Hᴇʀᴇ"
+  innexiaX += "🔸 `I Aᴍ Wᴏʀᴋɪɴɢ Pʀᴏᴘᴇʀʟʏ`\n"
+  innexiaX += "🔹 `Iɴɴᴇxɪᴀ Oꜱ : 2.0 Lᴀᴛᴇꜱᴛ`\n"
+  innexiaX += f"🔸 `Mʏ Mᴀꜱᴛᴇʀ` {OWNER_USERNAME}\n"
+  innexiaX += "🔹 `I'ᴍ Uᴘᴅᴀᴛᴇᴅ`\n"
+  innexiaX += "🔸 `Tᴇʟᴇᴛʜᴏɴ : 1.19.5 Lᴀᴛᴇꜱᴛ`\n"
+  innexiaX += "**🥰 Tʜᴀɴᴋ Yᴏᴜ Fᴏʀ Aᴅᴅ Mᴇ Hᴇʀᴇ!**"
   BUTTON = [[Button.url("Sᴜᴘᴘᴏʀᴛ", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Oᴡɴᴇʀ", f"https://t.me/{OWNER_USERNAME}")]]
   await event.edit(text=InnexiaX, buttons=BUTTONS)
