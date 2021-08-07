@@ -126,19 +126,19 @@ def warn(
                 ],
                 [
                     InlineKeyboardButton(
-                        "🆑 Chat Rules", url="https://t.me/innexiaBot?start={}".format(chat.id)
+                        "🔘 Chat Rules", url="https://t.me/innexiaBot?start={}".format(chat.id)
                     )
                 ]
             ]
         )
 
         reply = (
-            f"<code>❕</code><b>Warn Event</b>\n"
-            f"<code> </code><b>•  User:</b> {mention_html(user.id, user.first_name)}\n"
-            f"<code> </code><b>•  Count:</b> {num_warns}/{limit}"
+            f"<code>❕</code><b>Warning Event</b>\n"
+            f"<code> </code><b>👤  User:</b> {mention_html(user.id, user.first_name)}\n"
+            f"<code> </code><b>📟  Count:</b> {num_warns}/{limit}"
         )
         if reason:
-            reply += f"\n<code> </code><b>•  Reason:</b> {html.escape(reason)}"
+            reply += f"\n<code> </code><b>⚠️  Reason:</b> {html.escape(reason)}"
 
         log_reason = (
             f"<b>{html.escape(chat.title)}:</b>\n"
