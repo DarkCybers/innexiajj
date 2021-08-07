@@ -368,7 +368,7 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_back"),
+                    InlineKeyboardButton(text="Owner", url="t.me/useIes"),
                     InlineKeyboardButton(text="Help", callback_data="help_back"),
                  ],
                  [
@@ -376,7 +376,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Update", url="https://t.me/SiderzBot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Details", url="t.me/SiderzInfo"),
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back"),
                  
                  ]
                 ]
@@ -398,7 +398,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexia) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -693,7 +693,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "`Yes I'm Fine` 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm Fine 😹")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
