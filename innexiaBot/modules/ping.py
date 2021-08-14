@@ -81,8 +81,8 @@ def ping(update: Update, context: CallbackContext):
 
     message.edit_text(
         "✭𝕄𝕪 𝕡𝕚𝕟𝕘▬⇩\n"
-        "<b>▀▄▀▄  𝙎𝙥𝙚𝙚𝙙 ➯</b> <code>{}</code>".format(telegram_ping, uptime),
-        "<b>✭ℝ𝕖𝕡𝕝𝕪 𝕋𝕠𝕠𝕜 ➯</b> <code>{}</code>\n"
+        "\n<b>▀▄▀▄  𝙎𝙥𝙚𝙚𝙙 ➯</b> <code>{}</code>".format(telegram_ping, uptime),
+        "<b>✭ℝ𝕖𝕡𝕝𝕪 𝕋𝕠𝕠𝕜 ➯</b> <code>{}</code>",
         parse_mode=ParseMode.HTML,
     )
 
