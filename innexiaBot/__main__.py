@@ -544,10 +544,16 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="Hᴇʟᴘ ❔",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
-                    ]
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 📢 ",
+                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                        )
+                    ],
                 ]
             ),
         )
