@@ -387,3 +387,12 @@ async def quotly(event):
     canvas.save('sticker.webp')
     await event.client.send_file(event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id)
     os.remove('sticker.webp')
+    
+    
+__mod_name__ = "Quotly"
+
+__help__ = """
+⚙️ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱:
+❍ /quotly [in response to the message]
+❍ make a quote from the message!
+"""
