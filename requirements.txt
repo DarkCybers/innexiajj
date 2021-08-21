@@ -1,5 +1,4 @@
 future
-random
 textwrap
 json
 tzlocal==2.0
