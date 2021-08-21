@@ -371,8 +371,8 @@ async def replied_user(draw, tot, text, maxlength, title):
                 draw.text((180 + space, 132), letter, font=textfont, fill="white")
                 space += textfont.getsize(letter)[0]
 
-@telethn.on(events.NewMessage(pattern="^[!/]quotly$"))
-async def quotly(event):
+@telethn.on(events.NewMessage(pattern="^[!/]q$"))
+async def q(event):
     if event.fwd_from:
         return
     reply = await event.get_reply_message()
@@ -393,6 +393,6 @@ __mod_name__ = "Quotly"
 
 __help__ = """
 ⚙️ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱:
-❍ /quotly [in response to the message]
+❍ /q [in response to the message]
 ❍ make a quote from the message!
 """
